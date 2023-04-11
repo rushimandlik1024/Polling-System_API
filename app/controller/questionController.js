@@ -59,8 +59,8 @@ module.exports.addOptions = async function (req, res) {
         question: req.params.id,
         text: req.body.text,
         votes: 0,
-        link_to_vote: `${process.env.APP_URL}/options/${uniqueId}/add_vote`,
-//         link_to_vote: `https://${req.headers.host}/options/${uniqueId}/add_vote`,
+//         link_to_vote: `${process.env.APP_URL}/options/${uniqueId}/add_vote`,
+        link_to_vote: `https://${req.headers.host}/options/${uniqueId}/add_vote`,
       });
 
       await ques.options.push(option);
