@@ -16,9 +16,8 @@ can be used where polling/voting type of situation is expected . In this api use
 - Delete Options
 - Add Votes to the options
 
-<br />
-<br />
-## Packages Install
+
+## Packages <br/>                        
 -body-parser <br/>
 -dotenv<br/>
 -ejs<br/>
