@@ -17,12 +17,12 @@ can be used where polling/voting type of situation is expected . In this api use
 - Add Votes to the options
 
 ## Important endpoints of the API
-- Create your own questions: https://polling-sytem-api.onrender.com/questions/create
-- Delete the questions: https://polling-sytem-api.onrender.com/questions/id/delete
-- Add Options to the questions: https://polling-sytem-api.onrender.com/questions/id/options/create
-- View questions along with its options: https://polling-sytem-api.onrender.com/allquestions
-- Delete Options:  https://polling-sytem-api.onrender.com/option/id/delete
-- Add Votes to the options: https://polling-sytem-api.onrender.com/options/id/add_vote
+- Create your own questions(post): https://polling-sytem-api.onrender.com/questions/create
+- Delete the questions(delete): https://polling-sytem-api.onrender.com/questions/id/delete
+- Add Options to the questions(post): https://polling-sytem-api.onrender.com/questions/id/options/create
+- View questions along with its options(get): https://polling-sytem-api.onrender.com/allquestions
+- Delete Options(delete):  https://polling-sytem-api.onrender.com/option/id/delete
+- Add Votes to the options(post): https://polling-sytem-api.onrender.com/options/id/add_vote
 
 
 ## Packages <br/>                        
