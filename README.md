@@ -16,6 +16,14 @@ can be used where polling/voting type of situation is expected . In this api use
 - Delete Options
 - Add Votes to the options
 
+## Important endpoints of the API
+- Create your own questions: polling-sytem-api.onrender.com/question/create
+- Delete the questions: polling-sytem-api.onrender.com/question/:id/delete
+- Add Options to the questions: polling-sytem-api.onrender.com/question/:id/options/create
+- View questions along with its options: polling-sytem-api.onrender.com/question/:id
+- Add Votes to the options: polling-sytem-api.onrender.com/option/:id/delete
+- Delete Options: polling-sytem-api.onrender.com/option/:id/add_vote
+
 
 ## Packages <br/>                        
 -body-parser <br/>
@@ -26,3 +34,7 @@ can be used where polling/voting type of situation is expected . In this api use
 -nodemon<br/>
 <br/>
 <br/>
+
+
+
+
